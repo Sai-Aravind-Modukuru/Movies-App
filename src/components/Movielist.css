@@ -1,0 +1,27 @@
+
+.image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ .image-container:hover .overlay {
+    opacity: 1;
+}
+
+.box{
+    display: flex;
+    
+}
+
+.overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    transition: 0.7s ease;
+    opacity: 0;
+    bottom: 0;
+    font-size: 15px;
+    text-align: center;
+    
+
+}   

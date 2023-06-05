@@ -1,0 +1,21 @@
+ .movie-app>.row {
+
+     overflow-x: auto;
+     flex-wrap: nowrap;
+
+ }
+
+ .movie-app {
+     background-color: rgb(24, 22, 22);
+     color: chartreuse;
+     font-family: cursive;
+
+ }
+
+ .one{
+    height: 350px;
+
+ }
+ .two{
+    height: 350px;
+ }
